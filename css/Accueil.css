@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(57, 56, 56);
+}
+
+.description #thematiques a{
+    text-decoration: none;
+    color: black;
+}
+.description #thematiques{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid #cf1644;
+    padding: 15px;
+}
+
+.description #thematiques:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+}
+
+.description{
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color:white;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /*position: relative;*/ /* neutralisé car ça fait passer le body au dessus du header */
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: #4a4848;
+    padding: 5px 5px 5px 5px;
+}
+
+.imgcompetences{
+    text-align: left;
+    color:white;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+}
+.imgcompetences h2{
+    padding-left:10%;
+}
+
+.imgcompetences #competences{
+    padding-top: 1%;
+    padding-left: 17px;
+    padding-bottom: 1%;
+    width: 40%;
+    height: 40%;
+}
+

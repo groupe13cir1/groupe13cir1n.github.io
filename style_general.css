@@ -1,0 +1,168 @@
+/*
+Contiens tous les styles des éléments comme les menus, footers et autres réglages partagés entre toutes les pages du site
+*/
+
+html {
+    height:100%;
+}
+
+/* application des paramètres à tous les headers sans passer par l'ID car ils sont les mêmes sur toutes les pages */
+header {
+    background-color: #ff1f1f;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display:flex;
+
+
+    /* nav */
+    order: 2;
+    overflow:inherit;
+
+    background-color: #cf1644;
+    align-self:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* inherited from navbar */
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    /*text-align: center;*/
+    /* display:inline-block; */
+    /*vertical-align:top;*/
+}
+
+header nobr {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-self:center;
+
+    list-style-type: none;
+    padding: 10px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+header nobr a, header nobr div button {
+    padding: 20px 20px 20px 20px;
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 0px;
+    padding: 5px 12px;
+}
+
+header nobr a:hover {
+    background-color: #bd3737;
+}
+
+#labisenlogo {
+    height: 70px;
+}
+/* body */
+body {
+    height:100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/* application des paramètres à tous les footer sans passer par l'ID car ils sont les mêmes sur toutes les pages */
+footer {
+    background-color: #cf1644;
+    margin: 0 auto;
+    padding: 10px;
+    /*height: 100px;*/
+    color:white;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* éléments du footer */
+
+#literal_first_name { /* sert à décaler les noms vers la droite */
+    margin-left: auto;
+}
+
+.item_left {
+    float:left;
+    display: inline;
+    background: #cf1644;
+    width: 150px;
+}
+
+.item_left a{
+    text-decoration: none;
+    color: white;
+}
+
+.item_right {
+    float:right;
+    display: inline;
+    background: #cf1644;
+    width: 170px;
+}
+
+.item_right a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Menus de recherche du navbar */
+
+.dropbtn{
+    background-color: #cf1644;
+    color: white;
+    padding: 0px 10px 5px 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #bd3737;
+}
+
+.material-icons{
+    vertical-align: text-top;
+    font-size: 18px !important;
+}
