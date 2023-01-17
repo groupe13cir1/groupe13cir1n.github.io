@@ -40,7 +40,7 @@ html{
     color:white;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     border-radius: 10px;
 }
 .imgcompetences h2{
@@ -62,7 +62,7 @@ html{
     color:white;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    position: absolute; 
+    position: fixed; 
     padding-bottom: 40px;
     left: 0;
     right: 0;
