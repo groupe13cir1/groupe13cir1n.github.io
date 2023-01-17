@@ -62,7 +62,7 @@ html{
     color:white;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    position: relative; 
+    position: absolute; 
     padding-bottom: 40px;
     left: 0;
     right: 0;
