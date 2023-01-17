@@ -54,4 +54,21 @@ html{
     width: 40%;
     height: 40%;
 }
+.feed{
+    margin: 0 auto;
+    padding: 15px;
+    height: 100px;
+    text-align: center;
+    color:white;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.feed a{
+    text-decoration: none;
+    color: white;
+}
 
