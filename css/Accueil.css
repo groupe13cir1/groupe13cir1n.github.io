@@ -63,7 +63,7 @@ html{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
     position: relative; 
-    bottom: 40px;
+    bottom: 20px;
     left: 0;
     right: 0;
 }
@@ -71,4 +71,3 @@ html{
     text-decoration: none;
     color: white;
 }
-
