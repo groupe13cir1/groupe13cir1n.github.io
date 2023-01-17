@@ -40,7 +40,7 @@ html{
     color:white;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
 }
 .imgcompetences h2{
